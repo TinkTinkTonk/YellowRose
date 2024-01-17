@@ -1,217 +1,31 @@
-<!-- FILEPATH: /f:/Dylans Stuff/HTML Projects/Practice/index.html -->
-<!-- 
-	This is the HTML code for the home page of a website.
-	It includes headings, paragraphs, and lists with specific styles applied.
-	The page also contains a link to an external website.
-	The code is organized using CSS classes for centering elements.
-	The unordered list at the end ranks different dog breeds.
--->
-
 <!DOCTYPE html>
-<!-- HTML -->
 <html lang="en">
-<!-- Head -->
 
 <head>
-	<!-- Meta data -->
-	<title>Home</title>
-	<meta charset="UTF-8" />
-	<!-- Styles -->
-	<style>
-		.center {
-			text-align: center;
-		}
-
-		.centered-list {
-			text-align: center;
-		}
-
-		.centered-list-li {
-			display: inline-block;
-			text-align: left;
-		}
-
-		.centered-unordered-list {
-			text-align: center;
-		}
-
-		.centered-unordered-list li {
-			display: inline-block;
-			text-align: left;
-		}
-
-		.centeres-table {
-			margin-left: auto;
-			margin-right: auto;
-		}
-	</style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Yellow Rose Trucking</title>
 </head>
-<!-- Body -->
 
-<body class="center">
-	<!--Headings using the center style 1-6-->
-	<h1>Home</h1>
-	<!--Paragraphs using the center style-->
-	<p>Home page body content.</p>
-	<!--Paragraphs using the center style and strong and em tags-->
-	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Consectetur hic <strong>cupiditate dolorem
-			dolor</strong> laudantium. <br>Tempora maiores, reprehenderit beatae voluptate similique eveniet id?
-		<br>Recusandae <a href="https://www.google.com" target="_blank"><strong><em>obcaecati dolorum
-					quae!</em></strong></a> Est, rem
-		et.
-	</p>
-	<blockquote cite="https://www.google.com" target="_blank">
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Consectetur hic <strong>cupiditate dolorem
-		dolor</strong> laudantium. <br>Tempora maiores, reprehenderit beatae voluptate similique eveniet id? et.
-	</blockquote>
-	<br>
-	<hr>
-	<br>
-	<!--Lists using the centered-list and centered-unordered-list styles-->
-	<ol class="centered-list-li">
-		<li>Item 1</li>
-		<li>Item 2</li>
-		<li>Item 3</li>
-	</ol>
-	<div>
-		<ul class="centered-list-li">
-			<li>Item 1</li>
-			<li>Item 2</li>
-			<li>Item 3</li>
-		</ul>
-	</div>
-	<!--create an unordered list for ranking dog breeds-->
-	<ul class="centered-list-li">
-		<li>Labrador Retriever</li>
-		<li>German Shepherd</li>
-		<li>Golden Retriever</li>
-		<li>Bulldog</li>
-	</ul>
-	<br>
-	<hr>
-	<br>
-	<!--Table-->
-	<table class="centeres-table">
-		<!--Table head-->
-		<thead>
-			<!--Table row-->
-			<tr>
-				<!--Table header-->
-				<th>Header 1</th>
-				<th>Header 2</th>
-				<th>Header 3</th>
-			</tr>
-		</thead>
-		<!--Table body-->
-		<tbody>
-			<!--Table row-->
-			<tr>
-				<!--Table data-->
-				<td>Data 1</td>
-				<td>Data 2</td>
-				<td>Data 3</td>
-			</tr>
-			<!--Table row-->
-			<tr>
-				<!--Table data-->
-				<td>Data 1</td>
-				<td>Data 2</td>
-				<td>Data 3</td>
-			</tr>
-			<!--Table row-->
-			<tr>
-				<!--Table data-->
-				<td>Data 1</td>
-				<td>Data 2</td>
-				<td>Data 3</td>
-			</tr>
-			<tr>
-				<!--Table data-->
-				<td>Data 1</td>
-				<td>Data 2</td>
-				<td>Data 3</td>
-			</tr>
-		</tbody>
-		<!--Table footer-->
-		<tfoot>
-			<!--Table row-->
-			<tr>
-				<!--Table header-->
-				<th>Footer 1</th>
-				<th>Footer 2</th>
-				<th>Footer 3</th>
-			</tr>
-		</tfoot>
-	</table>
-	<br>
-	<hr>
-	<br>
-	<!--Forms-->
-	<form action="index.html" method="post">
-		<!--Text input-->
-		<div>
-			<!--Email Entry-->
-			<label for="email">Email</label>
-			<input type="email" name="email" placeholder="Submit" />
-		</div>
-		<div>
-			<!--Text input-->
-			<label for="text">Full Name</label>
-			<input type="text" name="fullName" placeholder="Text Input" />
-		</div>
-		<div>
-			<!--Password input-->
-			<lable for="password">Password Here</lable>
-			<input type="password" name="password" placeholder="Password Input" />
-		</div>
-		<div>
-			<!--Select-->
-			<label for="select">Gender</label>
-			<select name="select">
-				<option value="Option 1">Male</option>
-				<option value="Option 2">Female</option>
-				<option value="Option 3">Bitch Ass, Pussy Ass, Bitch</option>
-			</select>
-		</div>
-		<div>
-			<!--Age number-->
-			<label>Age</label>
-			<input type="number" name="age" placeholder="30" />
-		</div>
-		<div>
-			<!--birthday date-->
-			<label>Birthday</label>
-			<input type="date" name="birhtday" />
-		</div>
-		<div>
-			<!--Radio buttons-->
-			<input type="radio" name="radio" value="Radio Button 1" />
-			<input type="radio" name="radio" value="Radio Button 2" />
-			<input type="radio" name="radio" value="Radio Button 3" />
-		</div>
-		<div>
-			<!--Checkboxes-->
-			<input type="checkbox" name="checkbox" value="Checkbox 1" />
-			<input type="checkbox" name="checkbox" value="Checkbox 2" />
-			<input type="checkbox" name="checkbox" value="Checkbox 3" />
-		</div>
-		<div>
-			<!--Message Area-->
-			<label>Message</label>
-			<textarea name="messageArea"></textarea>
-		</div>
-		<div>
-			<!--Submit button-->
-			<input type="submit" name="submit" value="Submit" />
-			<br>
-			<button>Click me, I do nothing!</button>
-			<br>
-			<hr>
-			<br>
-			<a href="images/20220731_161901.jpg">
-				<img src="images/20220731_161901.jpg" height="500" alt="Image of the girl I love">
-			</a>
-		</div>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<h1>Welcome to Yellow Rose Trucking</h1>
+		<p>Content of the index page goes here.</p>
+	</main>
+
+	<footer>
+		<p>&copy; 2022 Yellow Rose Trucking. All rights reserved.</p>
+	</footer>
 </body>
 
 </html>
