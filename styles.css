@@ -63,7 +63,7 @@ button {
     padding: 10px;
     width: 100%;
 }
-button:hover {
+button :hover {
     background-color: #2e2e2e;
     color: #dbdbdb;
 }
@@ -71,4 +71,13 @@ button:active {
     background-color: #666666;
     border: 1px solid #666666;
     color: #2e2e2e;
+}
+textarea {
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    color: #666666;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
 }
