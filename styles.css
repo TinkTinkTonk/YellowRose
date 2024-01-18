@@ -25,16 +25,18 @@ h1 {
 .topnav {
   overflow: hidden;
   background-color: #7c7c7c;
+  text-align: right;
 
 }
 .topnav a {
   float: left;
   display: block;
   color: #dbdbdb;
-  text-align: center;
+  text-align: right;
   padding: 50px 50px;
   text-decoration: none;
   font-size: 17px;
+  width: 100%;
 }
 .topnav a:hover {
   background-color: #2e2e2e;
