@@ -81,3 +81,7 @@ textarea {
     padding: 10px;
     width: 100%;
 }
+strong {
+    color: #dbdbdb;
+    font-weight: bold;
+}
