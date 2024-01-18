@@ -31,7 +31,7 @@ h1 {
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    align-tracks: right;
+    align-self: right;
   }
   
   /* Style the links inside the navigation bar */
@@ -45,7 +45,7 @@ h1 {
     padding-bottom: 10px;
     text-decoration: none;
     font-size: 17px;
-    align-tracks: right;
+    align-self: right;
   }
   
   /* Change the color of links on hover */
@@ -56,7 +56,7 @@ h1 {
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    align-tracks: right;
+    align-self: right;
   }
   
   /* Add a color to the active/current link */
@@ -67,7 +67,7 @@ h1 {
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    align-tracks: right;
+    align-self: right;
   }
 /* Style paragraphs */
 p {
