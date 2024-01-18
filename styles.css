@@ -26,6 +26,7 @@ h1 {
 .topnav {
     background-color: #646464;
     overflow: hidden;
+    color: #dbdbdb;
   }
   
   /* Style the links inside the navigation bar */
