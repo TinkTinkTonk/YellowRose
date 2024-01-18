@@ -22,6 +22,27 @@ h1 {
 	margin-bottom: 20px;
 }
 
+.topnav {
+  overflow: hidden;
+  background-color: #525252;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #dbdbdb;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #2e2e2e;
+  color: #dbdbdb;
+}
+.topnav a.active {
+  background-color: #2e2e2e;
+  color: #dbdbdb;
+}
 /* Style paragraphs */
 p {
 	color: #dbdbdb;
