@@ -24,14 +24,15 @@ h1 {
 
 .topnav {
   overflow: hidden;
-  background-color: #525252;
+  background-color: #7c7c7c;
+
 }
 .topnav a {
   float: left;
   display: block;
   color: #dbdbdb;
   text-align: center;
-  padding: 14px 16px;
+  padding: 50px 50px;
   text-decoration: none;
   font-size: 17px;
 }
