@@ -1,87 +1,85 @@
 /* FILEPATH: /F:/Dylans Stuff/HTML Projects/Practice/styles.css */
 
 /* Reset default styles */
-body, h1, p {
-    margin: 0;
-    padding: 0;
+body,
+h1,
+p {
+	margin: 0;
+	padding: 0;
 }
 
 /* Set background color and font styles */
 body {
-    background-color: #2e2e2e;
-    font-family: Arial, sans-serif;
+	background-color: #2e2e2e;
+	font-family: Arial, sans-serif;
 }
 
 /* Style the heading */
 h1 {
-    color: #dbdbdb;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
+	color: #dbdbdb;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 20px;
 }
 
 /* Style paragraphs */
 p {
-    color: #dbdbdb;
-;
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 10px;
+	color: #dbdbdb;
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 10px;
 }
 a {
-    color: #dbdbdb;
-    text-decoration: none;
-    
-a:visited {
-    color: #666666;
+	color: #dbdbdb;
+	text-decoration: none;
 }
 label {
-    color: #dbdbdb;
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 10px;
+	color: #dbdbdb;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
 }
 input {
-    border: 1px solid #dbdbdb;
-    border-radius: 3px;
-    color: #666666;
-    font-size: 16px;
-    margin-bottom: 20px;
-    padding: 10px;
-    width: 100%;
+	border: 1px solid #dbdbdb;
+	border-radius: 3px;
+	color: #666666;
+	font-size: 16px;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
 }
 input:focus {
-    border: 1px solid #666666;
+	border: 1px solid #666666;
 }
 button {
-    background-color: #dbdbdb;
-    border: 1px solid #dbdbdb;
-    border-radius: 3px;
-    color: #2e2e2e;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 10px;
-    width: 100%;
+	background-color: #dbdbdb;
+	border: 1px solid #dbdbdb;
+	border-radius: 3px;
+	color: #2e2e2e;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px;
+	width: 100%;
 }
 button :hover {
-    background-color: #2e2e2e;
-    color: #dbdbdb;
+	background-color: #2e2e2e;
+	color: #dbdbdb;
 }
 button:active {
-    background-color: #666666;
-    border: 1px solid #666666;
-    color: #2e2e2e;
+	background-color: #666666;
+	border: 1px solid #666666;
+	color: #2e2e2e;
 }
 textarea {
-    border: 1px solid #dbdbdb;
-    border-radius: 3px;
-    color: #666666;
-    font-size: 16px;
-    margin-bottom: 20px;
-    padding: 10px;
-    width: 100%;
+	border: 1px solid #dbdbdb;
+	border-radius: 3px;
+	color: #666666;
+	font-size: 16px;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
 }
 strong {
-    color: #dbdbdb;
-    font-weight: bold;
+	color: #dbdbdb;
+	font-weight: bold;
 }
