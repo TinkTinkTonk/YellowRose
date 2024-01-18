@@ -40,13 +40,13 @@ h1 {
   }
   
   /* Change the color of links on hover */
-  .topnav a:hover {
+  .topnav :hover {
     background-color: #949494;
     color: black;
   }
   
   /* Add a color to the active/current link */
-  .topnav a.active {
+  .topnav :active {
     background-color: #2e2e2e;
     color: white;
   }
