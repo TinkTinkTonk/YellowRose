@@ -21,7 +21,16 @@ h1 {
 	font-weight: bold;
 	margin-bottom: 20px;
 }
-
+.topbar{
+    background-color: #646464;
+    overflow: hidden;
+    color: #dbdbdb;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-self: right;
+}
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #646464;
