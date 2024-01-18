@@ -27,6 +27,10 @@ h1 {
     background-color: #646464;
     overflow: hidden;
     color: #dbdbdb;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   
   /* Style the links inside the navigation bar */
@@ -46,12 +50,20 @@ h1 {
   .topnav :hover {
     background-color: #949494;
     color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   
   /* Add a color to the active/current link */
   .topnav .active {
     background-color: #2e2e2e;
     color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
   }
 /* Style paragraphs */
