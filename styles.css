@@ -27,7 +27,7 @@ h1 {
     background-color: #646464;
     overflow: hidden;
     color: #dbdbdb;
-    align-content: end;
+    text-align: center;
   }
   
   /* Style the links inside the navigation bar */
